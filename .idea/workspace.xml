@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3886cd0b-c9ca-455c-b2eb-26a8a5313a1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AtletaFemenina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListaAtletas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gestionAtletas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+    <list default="true" id="3886cd0b-c9ca-455c-b2eb-26a8a5313a1c" name="Changes" comment="Funciona">
+      <change afterPath="$PROJECT_DIR$/OtroEjercicio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "19",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -85,6 +78,27 @@
       <option name="presentableId" value="Default" />
       <updated>1698164373735</updated>
     </task>
+    <task id="LOCAL-00001" summary="Funciona">
+      <option name="closed" value="true" />
+      <created>1698355057183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698355057183</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Funciona">
+      <option name="closed" value="true" />
+      <created>1698355119389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698355119389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Funciona" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funciona" />
   </component>
 </project>
