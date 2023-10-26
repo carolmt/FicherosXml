@@ -1,0 +1,27 @@
+<atletas_femeninas>
+  <atleta>
+    <nombre>Sandra</nombre>
+    <edad>22</edad>
+    <pais_origen>España</pais_origen>
+    <pruebas>
+      <prueba>Nadar</prueba>
+    </pruebas>
+  </atleta>
+  <atleta>
+    <nombre>Andrea</nombre>
+    <edad>24</edad>
+    <pais_origen>Rumanía</pais_origen>
+    <pruebas>
+      <prueba>Nadar</prueba>
+      <prueba>Salto de altura</prueba>
+    </pruebas>
+  </atleta>
+  <atleta>
+    <nombre>Paola</nombre>
+    <edad>25</edad>
+    <pais_origen>Francia</pais_origen>
+    <pruebas>
+      <prueba>500 metros</prueba>
+    </pruebas>
+  </atleta>
+</atletas_femeninas>
