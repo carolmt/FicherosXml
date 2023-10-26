@@ -12,12 +12,5 @@ public class ListaAtletas {
     public ListaAtletas(List<AtletaFemenina> atletas) {
         this.atletas = atletas;
     }
-
-    @Override
-    public String toString() {
-        return "ListaLenguajes{" +
-                "lenguajes=" + atletas +
-                '}';
-    }
 }
 
