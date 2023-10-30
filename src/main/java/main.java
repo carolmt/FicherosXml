@@ -1,12 +1,3 @@
-import com.fasterxml.jackson.core.JsonProcessingException;
-import org.w3c.dom.Document;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +17,7 @@ public class main {
 
         List<AtletaFemenina>atletas_de_xml = new ArrayList<AtletaFemenina>();
 
-        atletas_de_xml= gestion.devuelveListaObjetosXml(ruta);
+        atletas_de_xml = gestion.devuelveListaObjetosXml(ruta);
         atletas_de_xml.forEach(System.out::println);
     }
 }
