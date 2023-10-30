@@ -1,6 +1,5 @@
     import java.nio.file.Path;
     import java.util.ArrayList;
-    import java.util.HashMap;
     import java.util.List;
     import java.util.Scanner;
 
@@ -10,16 +9,12 @@
             Scanner reader = new Scanner(System.in);
             Path ruta = Path.of(".", "src", "main","resources", "archivolibros.json");
             List<Book> libros = new ArrayList<>();
-            ListaLibros listaLibros = new ListaLibros(libros);
-          //  List<Book>libros_de_json = GestionBook.devuelveArrayObjetosJson(ruta);
-            //libros_de_json.forEach(System.out::println);
-
 
             libros.add(new Book("9788408096375", "El alquimista", "Paulo Coelho", 192, 1988));
             libros.add(new Book("9788408004349", "Marina","Carlos Ruiz Zafon", 304, 2012));
             libros.add(new Book("9788467593945", "Campo de fresas","Jordi Sierra I Fabra", 136, 2017));
 
-            GestionBook.escribirListaBookJSON(listaLibros, ruta);
+            GestionBook.escribirListaBookJSON(libros, ruta);
 
             do  {
                 opcion = GestionBook.menu();
@@ -41,9 +36,8 @@
                         Book nuevoLibro = new Book(isbn, titulo, autor, num_pags, anyo);
                         libros.add(nuevoLibro);
 
-                        GestionBook.escribirListaBookJSON(listaLibros, ruta);
+                        GestionBook.escribirListaBookJSON(libros, ruta);
                         System.out.println("Libro añadido.");
-                        opcion = GestionBook.menu();
                         break;
 
                     case 2:
@@ -51,7 +45,6 @@
                         String tituloBuscado = reader.nextLine();
 
                         GestionBook.buscarLibroPorTitulo(libros, tituloBuscado);
-                        opcion = GestionBook.menu();
                         break;
 
                     case 3:
@@ -59,7 +52,6 @@
                         String autorBuscado = reader.nextLine();
 
                         GestionBook.buscarLibroPorAutor(libros, autorBuscado);
-                        opcion = GestionBook.menu();
                         break;
 
                     case 4:
@@ -67,16 +59,18 @@
                         for (Book libro : libros) {
                             System.out.println(libro);
                         }
-                        opcion = GestionBook.menu();
                         break;
 
                     case 0:
+                        List<Book>libros_de_json = GestionBook.devuelveArrayObjetosJson(ruta);
+                        libros_de_json.forEach(System.out::println);
                         System.out.println("Fin del programa.");
+                        break;
 
                     default:
                         System.out.println("Opción no válida. Inténtalo de nuevo.");
                 }
-            }while(opcion > 4 || opcion < 0);
+            }while(opcion != 0);
         }
 
     }

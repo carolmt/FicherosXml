@@ -1,1 +1,25 @@
-{ }
+[ {
+  "isbn" : "9788408096375",
+  "titulo" : "El alquimista",
+  "autor" : "Paulo Coelho",
+  "num_pags" : 192,
+  "anyo" : 1988
+}, {
+  "isbn" : "9788408004349",
+  "titulo" : "Marina",
+  "autor" : "Carlos Ruiz Zafon",
+  "num_pags" : 304,
+  "anyo" : 2012
+}, {
+  "isbn" : "9788467593945",
+  "titulo" : "Campo de fresas",
+  "autor" : "Jordi Sierra I Fabra",
+  "num_pags" : 136,
+  "anyo" : 2017
+}, {
+  "isbn" : "24323",
+  "titulo" : "ee",
+  "autor" : "rr",
+  "num_pags" : 4,
+  "anyo" : 3333
+} ]

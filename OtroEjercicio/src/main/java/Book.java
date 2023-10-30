@@ -1,17 +1,14 @@
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
-
-
 import java.io.Serializable;
-@JacksonXmlRootElement(localName = "libro")
 
-public class Book implements Serializable {
-    @JacksonXmlProperty(isAttribute = true)
+public class Book implements  Serializable{
     private String isbn;
     private String titulo;
     private String autor;
     private int num_pags;
     private int anyo;
+
+    public Book() {
+    }
 
     public Book(String isbn, String titulo, String autor, int num_pags, int anyo) {
         this.isbn = isbn;
@@ -24,7 +21,6 @@ public class Book implements Serializable {
     public String getTitulo() {
         return titulo;
     }
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }

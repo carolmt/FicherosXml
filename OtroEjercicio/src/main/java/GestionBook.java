@@ -2,7 +2,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
-
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
@@ -26,12 +25,12 @@ public class GestionBook {
 
         return opcion;
     }
-    public static void escribirListaBookJSON(ListaLibros listaLibros, Path ruta) {
+    public static void escribirListaBookJSON(List<Book> libros, Path ruta) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
             System.out.println("Escribiendo en el archivo JSON...");
-            objectMapper.writeValue(ruta.toFile(), listaLibros);
+            objectMapper.writeValue(ruta.toFile(), libros);
             System.out.println("Escritura completa.");
 
         } catch (IOException e) {
@@ -47,21 +46,28 @@ public class GestionBook {
         }
     }
     public static void buscarLibroPorTitulo(List<Book> libros, String tituloBuscado) {
-        String datos ;
-        for (int i = 0; i < libros.size(); i++) {
-            if (libros.get(i).getTitulo().equalsIgnoreCase(tituloBuscado))
-                datos = libros.get(i).toString();
-            else
-                System.out.println("Libro no encontrado.");
+        boolean encontrado = false;
+        for (Book libro : libros) {
+            if (libro.getTitulo().equalsIgnoreCase(tituloBuscado)) {
+                System.out.println(libro);
+                encontrado = true;
+            }
+        }
+        if (!encontrado) {
+            System.out.println("Libro no encontrado.");
         }
     }
+
     public static void buscarLibroPorAutor(List<Book> libros, String autorBuscado) {
-        String datos;
-        for (int i = 0; i < libros.size(); i++) {
-            if (libros.get(i).getTitulo().equalsIgnoreCase(autorBuscado))
-                datos = libros.get(i).toString();
-            else
-                System.out.println("Libro no encontrado.");
+        boolean encontrado = false;
+        for (Book libro : libros) {
+            if (libro.getAutor().equalsIgnoreCase(autorBuscado)) {
+                System.out.println(libro);
+                encontrado = true;
+            }
+        }
+        if (!encontrado) {
+            System.out.println("Libro no encontrado.");
         }
     }
 }

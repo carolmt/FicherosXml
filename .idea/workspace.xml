@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3886cd0b-c9ca-455c-b2eb-26a8a5313a1c" name="Changes" comment="toString borrado.">
-      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/GestionBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/ListaLibros.java" afterDir="false" />
+    <list default="true" id="3886cd0b-c9ca-455c-b2eb-26a8a5313a1c" name="Changes" comment="JSON 30/10">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtroEjercicio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/src/main/java/GestionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/GestionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/src/main/java/ListaLibros.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OtroEjercicio/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/target/classes/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/target/classes/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/target/classes/GestionBook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/target/classes/GestionBook$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/target/classes/GestionBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/OtroEjercicio/target/classes/GestionBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtroEjercicio/target/classes/ListaLibros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archivolibros.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/archivolibros.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,8 +71,10 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/carol/IdeaProjects/FicherosXml",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42643678",
@@ -126,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1698581486837</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JSON 30/10">
+      <option name="closed" value="true" />
+      <created>1698660610736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698660610736</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Funciona" />
     <MESSAGE value="Otra carpeta" />
     <MESSAGE value="toString borrado." />
-    <option name="LAST_COMMIT_MESSAGE" value="toString borrado." />
+    <MESSAGE value="JSON 30/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON 30/10" />
   </component>
 </project>
